@@ -1,5 +1,7 @@
-# Capstone
+# Welcome To Our Capstone Product
+KARSA (Kamus Luar Biasa) is an android-based (mobile) application that aims to help people with disabilities, especially the deaf and speech impaired, in learning sign language in order to facilitate and facilitate communication with other people.
 
+# Team Member
 | ID         | Member                      | Path               |
 |------------|-----------------------------|--------------------|
 | M7135J1617 | Hairatunnisa                | Machine Learning   |
