@@ -1,6 +1,0 @@
-0 Kursi
-1 Meja
-2 Pohon
-3 Buku
-4 Pulpen
-5 Kacamata
