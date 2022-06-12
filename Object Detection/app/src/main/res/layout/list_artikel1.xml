@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="165dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="0dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="16dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:id="@+id/imageArtikel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/berita"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="#9C000000"/>
+
+        <TextView
+            android:id="@+id/tvSumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Kompas - 10 Mar, 2021"
+            android:textSize="8dp"
+            android:textColor="@color/karsa"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="34dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/tvJudulBerita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textSize="9dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@android:color/white"
+            android:text="Kemenko PMK Mulai Bahas Rumusan Kebijakan Pemberdayaan Disabilitas dan Lansia"/>
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

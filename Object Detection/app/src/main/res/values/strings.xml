@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">karsa</string>
+    <string name="txt_main">Belajar bahasa isyarat\ndengan kami</string>
+    <string name="btnSudahDaftar">Sudah punya akun? <font color="#1687A7"><u><b>Silahkan login disini!</b></u></font> </string>
+    <string name="btnBelumDaftar">Belum punya akun? <font color="#1687A7"><u><b>Silahkan daftar disini!</b></u></font> </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textInputSampel">Sampel &amp; Video ini nantinya digunakan\njadi bahan penerjemah dan penjelasan buat siswa\n</string>
+    <string name="btnInputsampel">Input sampel\nobjek &amp; Terjemahan</string>
+    <string name="tvInputGambar">Input Gambar\nBahasa isyarat</string>
+    <string name="signIn_desc1">With KARSA \nEspecially Your Skill</string>
+    <string name="signUp_desc">Learn with Karsa. \n...</string>
+    <string name="signUp_desc2">...</string>
+
+
+
+</resources>
