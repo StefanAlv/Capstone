@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "780933030457",
+    "firebase_url": "https://aplikasi-karsa-3ff43-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aplikasi-karsa-3ff43",
+    "storage_bucket": "aplikasi-karsa-3ff43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780933030457:android:b0aa23ca7e2ded2c90e3e8",
+        "android_client_info": {
+          "package_name": "com.example.karsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780933030457-3duhprk3burg3iqbdshcle41ln3c9slo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQcrcZlwyyfJ74WPvBPBi-MlSCB4BvovQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780933030457-3duhprk3burg3iqbdshcle41ln3c9slo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
