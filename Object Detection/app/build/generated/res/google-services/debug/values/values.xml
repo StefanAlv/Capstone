@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">780933030457-3duhprk3burg3iqbdshcle41ln3c9slo.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://aplikasi-karsa-3ff43-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">780933030457</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQcrcZlwyyfJ74WPvBPBi-MlSCB4BvovQ</string>
+    <string name="google_app_id" translatable="false">1:780933030457:android:b0aa23ca7e2ded2c90e3e8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQcrcZlwyyfJ74WPvBPBi-MlSCB4BvovQ</string>
+    <string name="google_storage_bucket" translatable="false">aplikasi-karsa-3ff43.appspot.com</string>
+    <string name="project_id" translatable="false">aplikasi-karsa-3ff43</string>
+</resources>
