@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context=".fragment.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#121212"
+            android:textSize="14sp"
+            android:layout_marginStart="8dp"
+            android:text="Hello, Nisaa\nGood Morning"
+            app:layout_constraintStart_toEndOf="@id/cardView"
+            app:layout_constraintTop_toTopOf="@id/cardView"
+            app:layout_constraintBottom_toBottomOf="@id/cardView"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nisa"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="#121212"
+            android:textSize="16sp"
+            android:layout_marginTop="130dp"
+            android:layout_marginStart="16dp"
+            android:text="Belajar bahasa isyarat\ndengan objek sekitarmu"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/searching"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_search"
+                android:hint="Cari bahasa isyarat"
+                android:inputType="text"
+                android:maxLines="1"
+                android:drawableEnd="@drawable/ic_search"
+                android:padding="10dp"
+                android:textColor="@android:color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/fiturKamus"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:drawableEnd="@drawable/kamus"
+            android:textSize="11dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Abjad\nsibindo"
+            android:background="@drawable/button"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/textInput1"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="RtlSymmetry"
+            />
+
+        <Button
+            android:id="@+id/fiturDeteksi"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:drawableEnd="@drawable/kamera"
+            android:paddingEnd="5dp"
+            android:textSize="11dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Terjemah\nObjek Sekitar"
+            android:background="@drawable/button"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/textInput1"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#121212"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Berita Hari ini"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/fiturKamus"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv2"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
