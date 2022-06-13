@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.karsa"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:5:5-65
+11-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:10:5-81
+12-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:10:22-78
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:12:5-71
+13-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:12:22-68
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:14:5-60
+15-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:14:19-57
+16    <uses-feature
+16-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:15:5-17:36
+17        android:name="android.hardware.camera.autofocus"
+17-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:16:9-57
+18        android:required="false" />
+18-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:17:9-33
+19    <uses-feature
+19-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:18:5-20:36
+20        android:name="android.hardware.camera.front"
+20-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:19:9-53
+21        android:required="false" />
+21-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:20:9-33
+22    <uses-feature
+22-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:21:5-23:36
+23        android:name="android.hardware.microphone"
+23-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:22:9-51
+24        android:required="false" />
+24-->[com.wonderkiln:camerakit:0.13.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\cd675e51ba100d434a75fd60e5a6d9a4\jetified-camerakit-0.13.1\AndroidManifest.xml:23:9-33
+25
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+27    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:5-79
+28-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:22-76
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:26:5-67
+29-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:26:22-64
+30
+31    <application
+31-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:7:5-29:19
+32        android:allowBackup="true"
+32-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:8:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.3.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\db86781dcf8e89ac61e64f550cb91e4c\core-1.3.1\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:9:9-43
+36        android:label="@string/app_name"
+36-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:10:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:11:9-54
+38        android:supportsRtl="true"
+38-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:12:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.ObjectDetection" >
+40-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:13:9-53
+41        <activity android:name="com.example.karsa.InputSampelActivity" />
+41-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:14:9-66
+41-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:14:19-54
+42        <activity android:name="com.example.karsa.LoginActivity" />
+42-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:15:9-51
+42-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:15:19-48
+43        <activity android:name="com.example.karsa.FiturDeteksiActivity" />
+43-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:16:9-58
+43-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:16:19-55
+44        <activity android:name="com.example.karsa.HomeActivity" />
+44-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:17:9-50
+44-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:17:19-47
+45        <activity android:name="com.example.karsa.MainActivity" >
+45-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:18:9-24:20
+45-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:18:19-47
+46            <intent-filter>
+46-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:19:13-23:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:20:17-69
+47-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:20:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:22:17-77
+49-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:22:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <meta-data
+53-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:26:9-28:57
+54            android:name="preloaded_fonts"
+54-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:27:13-43
+55            android:resource="@array/preloaded_fonts" />
+55-->D:\data adik\CAPSTONE\Object Detection\app\src\main\AndroidManifest.xml:28:13-54
+56
+57        <service
+57-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:30:13-84
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\2495ec91434a504418b22e9ee943ed78\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:31:13-37
+61            <meta-data
+61-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+62                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+62-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-database:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\959211552d20810e5db1113d4b83c2a1\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\0681fad2d0121b582898b0df8a347117\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+65                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+65-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\0681fad2d0121b582898b0df8a347117\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\0681fad2d0121b582898b0df8a347117\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+67        </service>
+68
+69        <provider
+69-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\2495ec91434a504418b22e9ee943ed78\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+70            android:name="com.google.firebase.provider.FirebaseInitProvider"
+70-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\2495ec91434a504418b22e9ee943ed78\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+71            android:authorities="com.example.karsa.firebaseinitprovider"
+71-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\2495ec91434a504418b22e9ee943ed78\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\2495ec91434a504418b22e9ee943ed78\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+73            android:exported="false"
+73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\2495ec91434a504418b22e9ee943ed78\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+74            android:initOrder="100" />
+74-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\2495ec91434a504418b22e9ee943ed78\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\23d5d7a5b8b20886d364f2b7ecae8475\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\23d5d7a5b8b20886d364f2b7ecae8475\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\23d5d7a5b8b20886d364f2b7ecae8475\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\23d5d7a5b8b20886d364f2b7ecae8475\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c6e9ccfbf424ca04d3fe092280785127\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c6e9ccfbf424ca04d3fe092280785127\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c6e9ccfbf424ca04d3fe092280785127\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>
