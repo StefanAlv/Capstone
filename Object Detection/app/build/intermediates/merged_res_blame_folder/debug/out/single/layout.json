@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_input_sampel.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\activity_input_sampel.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fitur_deteksi.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\activity_fitur_deteksi.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_artikel.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\fragment_artikel.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_artikel2.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\list_artikel2.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_info.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\fragment_info.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\form_input_sampel.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\form_input_sampel.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_artikel1.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\list_artikel1.xml"
+    },
+    {
+        "merged": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "D:\\data adik\\CAPSTONE\\Object Detection\\app\\src\\main\\res\\layout\\activity_home.xml"
+    }
+]
