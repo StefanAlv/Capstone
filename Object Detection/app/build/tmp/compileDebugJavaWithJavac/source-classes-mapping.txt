@@ -1,0 +1,86 @@
+com/example/karsa/helper/Artikel1HelperClass.java
+ com.example.karsa.helper.Artikel1HelperClass
+com/example/karsa/databinding/ActivityHomeBinding.java
+ com.example.karsa.databinding.ActivityHomeBinding
+com/example/karsa/fragment/ProfileFragment.java
+ com.example.karsa.fragment.ProfileFragment
+ com.example.karsa.fragment.ProfileFragment$1
+com/example/karsa/databinding/ActivityInputSampelBinding.java
+ com.example.karsa.databinding.ActivityInputSampelBinding
+com/example/karsa/MainActivity.java
+ com.example.karsa.MainActivity
+ com.example.karsa.MainActivity$1
+ com.example.karsa.MainActivity$2
+com/example/karsa/fragment/InfoFragment.java
+ com.example.karsa.fragment.InfoFragment
+com/example/karsa/data/InputSampel.java
+ com.example.karsa.data.InputSampel
+com/example/karsa/data/Model.java
+ com.example.karsa.data.Model
+com/example/karsa/HomeActivity.java
+ com.example.karsa.HomeActivity
+com/example/karsa/fragment/ArtikelFragment.java
+ com.example.karsa.fragment.ArtikelFragment
+com/example/karsa/databinding/ActivityLoginBinding.java
+ com.example.karsa.databinding.ActivityLoginBinding
+com/example/karsa/adapter/AdapterArtikel2.java
+ com.example.karsa.adapter.AdapterArtikel2
+ com.example.karsa.adapter.AdapterArtikel2$Artikel2ViewHolder
+com/example/karsa/databinding/FormInputSampelBinding.java
+ com.example.karsa.databinding.FormInputSampelBinding
+com/example/karsa/databinding/FragmentInfoBinding.java
+ com.example.karsa.databinding.FragmentInfoBinding
+com/example/karsa/databinding/ActivityFiturDeteksiBinding.java
+ com.example.karsa.databinding.ActivityFiturDeteksiBinding
+com/example/karsa/databinding/ActivityMainBinding.java
+ com.example.karsa.databinding.ActivityMainBinding
+com/example/karsa/LoginActivity.java
+ com.example.karsa.LoginActivity
+com/example/karsa/FiturDeteksiActivity.java
+ com.example.karsa.FiturDeteksiActivity
+ com.example.karsa.FiturDeteksiActivity$1
+ com.example.karsa.FiturDeteksiActivity$2
+ com.example.karsa.FiturDeteksiActivity$3
+ com.example.karsa.FiturDeteksiActivity$4
+ com.example.karsa.FiturDeteksiActivity$5
+ com.example.karsa.FiturDeteksiActivity$6
+ com.example.karsa.FiturDeteksiActivity$7
+ com.example.karsa.FiturDeteksiActivity$8
+com/example/karsa/data/DialogForm.java
+ com.example.karsa.data.DialogForm
+ com.example.karsa.data.DialogForm$1
+ com.example.karsa.data.DialogForm$2
+ com.example.karsa.data.DialogForm$3
+ com.example.karsa.data.DialogForm$4
+ com.example.karsa.data.DialogForm$5
+ com.example.karsa.data.DialogForm$5$1
+com/example/karsa/databinding/ListArtikel2Binding.java
+ com.example.karsa.databinding.ListArtikel2Binding
+com/example/karsa/helper/Artikel2HelperClass.java
+ com.example.karsa.helper.Artikel2HelperClass
+com/example/karsa/fragment/HomeFragment.java
+ com.example.karsa.fragment.HomeFragment
+ com.example.karsa.fragment.HomeFragment$1
+com/example/karsa/TensorFlowImageClassifier/TensorFlowImageClassifier.java
+ com.example.karsa.TensorFlowImageClassifier.TensorFlowImageClassifier
+ com.example.karsa.TensorFlowImageClassifier.TensorFlowImageClassifier$1
+com/example/karsa/TensorFlowImageClassifier/Classifier.java
+ com.example.karsa.TensorFlowImageClassifier.Classifier
+ com.example.karsa.TensorFlowImageClassifier.Classifier$Recognition
+com/example/karsa/databinding/ListArtikel1Binding.java
+ com.example.karsa.databinding.ListArtikel1Binding
+com/example/karsa/databinding/FragmentArtikelBinding.java
+ com.example.karsa.databinding.FragmentArtikelBinding
+com/example/karsa/databinding/FragmentHomeBinding.java
+ com.example.karsa.databinding.FragmentHomeBinding
+com/example/karsa/BuildConfig.java
+ com.example.karsa.BuildConfig
+com/example/karsa/adapter/AdapterArtikel1.java
+ com.example.karsa.adapter.AdapterArtikel1
+ com.example.karsa.adapter.AdapterArtikel1$Artikel1ViewHolder
+com/example/karsa/InputSampelActivity.java
+ com.example.karsa.InputSampelActivity
+ com.example.karsa.InputSampelActivity$1
+ com.example.karsa.InputSampelActivity$2
+com/example/karsa/databinding/FragmentProfileBinding.java
+ com.example.karsa.databinding.FragmentProfileBinding
